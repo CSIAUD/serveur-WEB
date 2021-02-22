@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face{
+    font-family: 'Neon';
+    src:  url('../font/neon/Neon vortex.ttf') ;
+}
+@font-face{
+    font-family: 'INDUBITA';
+    src:  url('../font/indubita/INDUBITA-webfont.eot') format('eot'),
+    url('../font/indubita/INDUBITA-webfont.svg') format('svg'),
+    url('../font/indubita/INDUBITA-webfont.ttf') format('ttf'),
+    url('../font/indubita/INDUBITA-webfont.woff') format('woff');
+}
+/*font-family: 'Old English Text MT', serif;*/
+
+
+
+
+
+:root{
+    --height: 50px;
+    --width: 250px;
+}
+
+h1{
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+    height: 200px;
+}
+body{
+    width: 98%;
+    padding: 1%;
+    margin: 0;
+}
+
+
+.one {
+    border-radius: 5px;
+    font-size: 85px;
+    font-family: Pacifico;
+    background-color:  #8e44ad ;
+    border: 10px inset  #d7dbdd ;
+}
+
+.two {
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: RocknRoll One;
+    background-color:  #e74c3c ;
+    border: 10px outset  #f4d03f ;
+}
+
+.three {
+    border-radius: 15px;
+    font-size: 60px;
+    font-family: Stick;
+    background-color:  #e67e22 ;
+    border: 10px dotted  #2e86c1 ;
+}
+
+.four {
+    border-radius: 20px;
+    font-size: 35px;
+    font-family: Source Code Pro;
+    background-color:  #8e44ad ;
+    border: 10px groove  #e74c3c ;
+}
+
+.five {
+    border-radius: 25px;
+    font-size: 55px;
+    font-family: Lobster;
+    background-color:  #d7dbdd ;
+    border: 10px dashed  #f4d03f ;
+}
+
+.six {
+    border-radius: 30px;
+    font-size: 100px;
+    font-family: Righteous;
+    background-color:  #e74c3c ;
+    border: 10px solid  #e67e22 ;
+}
+
+.seven {
+    border-radius: 35px;
+    font-size: 50px;
+    font-family: Reggae One;
+    background-color:  #f4d03f ;
+    border: 10px double  #2e86c1 ;
+}
+
+.eight {
+    border-radius: 40px;
+    font-size: 75px;
+    font-family: 'Old English Text MT';
+    background-color:  #e67e22 ;
+    border: 10px ridge  #8e44ad ;
+}
+
+.nine {
+    border-radius: 45px;
+    font-size: 90px;
+    font-family: Acme;
+    background-color:  #2e86c1 ;
+    border: 10px inset  #d7dbdd ;
+}
+
+.ten {
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Neon;
+    background-color:  #8e44ad ;
+    border: 10px outset  #f4d03f ;
+}
+
+.eleven {
+    border-radius: 55px;
+    font-size: 70px;
+    font-family: Akaya Telivigala;
+    background-color:  #d7dbdd ;
+    border: 10px ridge  #e67e22 ;
+}
+
+.twelve {
+    border-radius: 60px;
+    font-size: 80px;
+    font-family: INDUBITA;
+    background-color:  #e74c3c ;
+    border: 10px solid  #2e86c1 ;
+}
+
+.thirteen {
+    border-radius: 65px;
+    font-size: 95px;
+    font-family: Permanent Marker;
+    background-color:  #f4d03f ;
+    border: 10px dashed  #8e44ad ;
+}
+
+.fourteen {
+    border-radius: 70px;
+    font-size: 65px;
+    font-family: Caveat;
+    background-color:  #e67e22 ;
+    border: 10px double  #d7dbdd ;
+}
+
+.fifteen {
+    border-radius: 100px;
+    font-size: 45px;
+    font-family: DotGothic16;
+    background-color:  #2e86c1 ;
+    border: 10px ridge  #e74c3c ;
+}
+
+/*fonts : neon
+indubita
+old english*/
