@@ -8,5 +8,15 @@
 </head>
 <body>
     <h1>Serveur APACHE</h1>
+    <p>Nous sommes le
+    <?php
+    $now = time();
+    echo date('d-m-Y', $now);
+    ?>
+    et il est
+    <?php
+    echo date('H:i', $now);
+    ?>
+    </p>
 </body>
 </html>
